@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="jenkinstrial1"
+      id="7f8e8178-f5f6-441e-91b1-bdb3d877f63b"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="jenkinstrial1"
+      id="7f8e8178-f5f6-441e-91b1-bdb3d877f63b"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0758c3ce-b4c3-4a83-9d07-a086ff47b34e"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="jenkinstrial1">
+	</codegen>
+	<variables>
+		<var
+		id="4869d7ae-55b1-4055-9b5c-b9a0577e105b"
+		name="CloseAutProcessIDVar">
+			-1
+		</var>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="500ms"
+		method="CloseWindowByProcessID"
+		optional="False"
+		searchpropertyid="228ed375-63ab-4797-b987-4d3c35920a3b">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ProcessID"
+				variable="CloseAutProcessIDVar">
+				</binding>
+			</bindings>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="d90e4d32-a33d-4b10-ae41-c4816d7ab158"
+	name="jenkinstrial1Repository"
+	relativepath="jenkinstrial1Repository.rxrep">
+		<codegen
+		classname="jenkinstrial1Repository"
+		namespace="jenkinstrial1">
+		</codegen>
+		<rootfolder
+		id="321e527f-060e-47a5-8d41-40036646228e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
